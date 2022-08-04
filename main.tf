@@ -5,3 +5,8 @@ module "resourcegroup" {
   location = "East US"
   # insert required variables here
 }
+
+provider "azurerm" {
+  features {}
+}  
+  
